@@ -7,7 +7,7 @@ namespace BlackJackGame.Models
     {
         #region Fields
         private static readonly Random _random = new Random();
-        private readonly IList<BlackJackCard> _cards;
+        protected  IList<BlackJackCard> _cards;
         #endregion
 
         #region Constructors
